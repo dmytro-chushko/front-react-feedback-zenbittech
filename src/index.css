@@ -1,5 +1,10 @@
 @import-normalize; /* bring in normalize.css styles */
 
+@font-face {
+  font-family: 'Apercu Arabic Pro';
+  src: url(./fonts/ApercuArabicPro-Regular.woff2);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
