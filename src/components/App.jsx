@@ -1,3 +1,22 @@
+import { Form } from './Form';
+import { Social } from './Social';
+
+import { Container, Footer, Title } from './App.styled';
+
 export const App = () => {
-  return <h1>Reach out to us</h1>;
+  return (
+    <>
+      <main>
+        <Container>
+          <Title>Reach out to us</Title>
+          <Form />
+        </Container>
+      </main>
+      <Footer>
+        <Container>
+          <Social />
+        </Container>
+      </Footer>
+    </>
+  );
 };
