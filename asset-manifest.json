@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.c00203ee.css",
-    "main.js": "/react-homework-template/static/js/main.e8ca8bb5.js",
+    "main.css": "/react-homework-template/static/css/main.2d77e16f.css",
+    "main.js": "/react-homework-template/static/js/main.6313d467.js",
+    "static/media/Earth-bgi.png": "/react-homework-template/static/media/Earth-bgi.eae7dd01bda58a8c6eee.png",
     "static/media/ApercuArabicPro-Regular.woff2": "/react-homework-template/static/media/ApercuArabicPro-Regular.9454d41e9c47cdaaa6a2.woff2",
+    "static/media/Clouds.png": "/react-homework-template/static/media/Clouds.fd49151ac515d8183621.png",
+    "static/media/emj-sprite.svg": "/react-homework-template/static/media/emj-sprite.13800f6aea9e157564809a327bdfc836.svg",
     "index.html": "/react-homework-template/index.html",
-    "main.c00203ee.css.map": "/react-homework-template/static/css/main.c00203ee.css.map",
-    "main.e8ca8bb5.js.map": "/react-homework-template/static/js/main.e8ca8bb5.js.map"
+    "main.2d77e16f.css.map": "/react-homework-template/static/css/main.2d77e16f.css.map",
+    "main.6313d467.js.map": "/react-homework-template/static/js/main.6313d467.js.map"
   },
   "entrypoints": [
-    "static/css/main.c00203ee.css",
-    "static/js/main.e8ca8bb5.js"
+    "static/css/main.2d77e16f.css",
+    "static/js/main.6313d467.js"
   ]
 }
