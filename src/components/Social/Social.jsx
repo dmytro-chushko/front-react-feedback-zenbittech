@@ -13,7 +13,7 @@ export const Social = () => {
     <SocialList>
       {iconsArr.map((icon, i) => (
         <SocialItem key={i}>
-          <SocialLink>{icon}</SocialLink>
+          <SocialLink href="#">{icon}</SocialLink>
         </SocialItem>
       ))}
     </SocialList>

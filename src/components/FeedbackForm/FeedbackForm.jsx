@@ -84,7 +84,9 @@ export const FeedbackForm = () => {
       {isLoading ? (
         <Loader />
       ) : (
-        <ButtonSubmit type="submit">Send message</ButtonSubmit>
+        <ButtonSubmit type="submit" aria-label="Send feedback">
+          Send message
+        </ButtonSubmit>
       )}
       <ToastContainer />
     </form>
