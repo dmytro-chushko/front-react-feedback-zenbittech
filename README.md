@@ -1,5 +1,9 @@
 # Hello. This is the feedback form app.
-
+## Used technologies:
+- [Create React App](https://create-react-app.dev/);
+- [Style-component](https://styled-components.com/);
+- [Redux Toolkit](https://redux-toolkit.js.org/);
+## Usage
 1. Type your name in field "Name" so we know how we should call you.
 2. Type your e-mail in field "Email" so we know how we may reply to you.
 3. Type your message in field "Message" for we know what do you thik about us.
