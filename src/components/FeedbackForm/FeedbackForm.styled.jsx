@@ -1,18 +1,18 @@
 import styled from 'styled-components';
-
+import PropTypes from 'prop-types';
 import { Comment } from 'react-loader-spinner';
 
 export const FeedbackField = styled.input`
+  position: relative;
   display: block;
   width: 557px;
-  height: ${({ placeholder }) =>
-    placeholder === 'Your message*' ? '189px' : '93px'};
-  margin-bottom: ${({ placeholder }) =>
-    placeholder === 'Your message*' ? '23px' : '8px'};
+  height: ${({ message }) => (message ? '189px' : '93px')};
+  margin-bottom: ${({ message }) => (message ? '25px' : '10px')};
   padding: 30px 46px;
   background: #ffffff;
   border: 1px solid #dcdcdc;
   border-radius: 10px;
+  z-index: 1;
 
   font-size: 18px;
   line-height: 1.8;
@@ -36,6 +36,8 @@ export const ButtonSubmit = styled.button`
   font-size: 18px;
   line-height: 1;
   color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
     background-color: #ffffff;
@@ -62,4 +64,12 @@ export const Loader = () => {
       backgroundColor="#F4442E"
     />
   );
+};
+
+FeedbackField.propTypes = {
+  message: PropTypes.bool,
+};
+
+ErrorMessage.propTypes = {
+  message: PropTypes.bool,
 };

@@ -20,6 +20,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
   font-weight: 400;
+  background-image: url('./img/Clouds.png'), url('./img/Earth-bgi.png');
+  background-repeat: repeat, no-repeat;
+  background-position: top 20px left, top right;
 }
 
 code {

@@ -1,22 +1,35 @@
-import { Form } from './Form';
+import { FeedbackForm } from './FeedbackForm';
 import { Social } from './Social';
+import { BgEmojisBody, BgEmojisFooter } from './BgEmojis';
 
-import { Container, Footer, Title } from './App.styled';
+import {
+  Container,
+  FeedbackWrapper,
+  Footer,
+  SocialWrapper,
+  Title,
+} from './App.styled';
 
 export const App = () => {
   return (
     <>
       <main>
         <Container>
-          <Title>Reach out to us</Title>
-          <Form />
+          <FeedbackWrapper>
+            <Title>Reach out to us</Title>
+            <FeedbackForm />
+          </FeedbackWrapper>
         </Container>
       </main>
       <Footer>
         <Container>
-          <Social />
+          <SocialWrapper>
+            <Social />
+          </SocialWrapper>
         </Container>
+        <BgEmojisFooter />
       </Footer>
+      <BgEmojisBody />
     </>
   );
 };

@@ -8,10 +8,10 @@ import {
   FeedbackMessage,
   ErrorMessage,
   Loader,
-} from './Form.styled';
+} from './FeedbackForm.styled';
 import { useAddFeedbackMutation } from 'redux/feedback/feedbackOperations';
 
-export const Form = () => {
+export const FeedbackForm = () => {
   const [addFeedback, { isLoading }] = useAddFeedbackMutation();
   const {
     register,
@@ -26,7 +26,6 @@ export const Form = () => {
       toast.error(result.error.data.message[0]);
       return;
     }
-    console.log(result);
     toast.success("You've just sent feedback");
     reset();
   };
@@ -70,6 +69,7 @@ export const Form = () => {
       <FeedbackMessage
         type="text"
         placeholder="Your message*"
+        message
         {...register('message', {
           required: 'Message is required',
           maxLength: {
