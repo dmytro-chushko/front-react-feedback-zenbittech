@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/front-react-feedback-zenbittech/static/css/main.53a682a5.css",
-    "main.js": "/front-react-feedback-zenbittech/static/js/main.1e7fed48.js",
+    "main.js": "/front-react-feedback-zenbittech/static/js/main.84de817f.js",
     "static/media/Earth-bgi.png": "/front-react-feedback-zenbittech/static/media/Earth-bgi.eae7dd01bda58a8c6eee.png",
     "static/media/ApercuArabicPro-Regular.woff2": "/front-react-feedback-zenbittech/static/media/ApercuArabicPro-Regular.9454d41e9c47cdaaa6a2.woff2",
     "static/media/Clouds.png": "/front-react-feedback-zenbittech/static/media/Clouds.fd49151ac515d8183621.png",
     "static/media/emj-sprite.svg": "/front-react-feedback-zenbittech/static/media/emj-sprite.13800f6aea9e157564809a327bdfc836.svg",
     "index.html": "/front-react-feedback-zenbittech/index.html",
     "main.53a682a5.css.map": "/front-react-feedback-zenbittech/static/css/main.53a682a5.css.map",
-    "main.1e7fed48.js.map": "/front-react-feedback-zenbittech/static/js/main.1e7fed48.js.map"
+    "main.84de817f.js.map": "/front-react-feedback-zenbittech/static/js/main.84de817f.js.map"
   },
   "entrypoints": [
     "static/css/main.53a682a5.css",
-    "static/js/main.1e7fed48.js"
+    "static/js/main.84de817f.js"
   ]
 }
